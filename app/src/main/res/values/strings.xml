@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common actions -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_close">Close</string>
+    <string name="action_share">Share</string>
+    <string name="action_open_with">Open with</string>
+    <string name="msg_no_app_to_open">No app found to open this</string>
+    <string name="action_rename">Rename</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add">Add</string>
+    <string name="action_open_in_new_tab">Open in new tab</string>
+    <string name="action_save">Save</string>
+
+    <!-- Errors: file systems -->
+    <string name="err_unknown_host_key">Unknown host key for %1$s</string>
+    <string name="err_host_key_changed">The host key of %1$s has changed (%2$s). Possible attack – check the server entry.</string>
+    <string name="volume_internal">Internal</string>
+    <string name="err_folder_not_readable">Can\'t read folder: %1$s</string>
+    <string name="err_mkdir_failed">Couldn\'t create folder</string>
+    <string name="err_rename_failed">Couldn\'t rename</string>
+    <string name="err_delete_failed">Couldn\'t delete: %1$s</string>
+    <string name="err_archive_closed">Archive is no longer open</string>
+    <string name="err_server_gone">Server no longer exists</string>
+    <string name="source_device">Device</string>
+    <string name="source_archive">Archive</string>
+    <string name="err_no_credentials">No password or key set</string>
+    <string name="err_login_failed_detail">Login failed: %1$s</string>
+    <string name="err_login_failed">Login failed</string>
+    <string name="err_not_a_file_share">“%1$s” is not a file share</string>
+    <string name="err_archive_wrong_password">Wrong password for “%1$s”</string>
+    <string name="err_archive_password_protected">“%1$s” is password-protected</string>
+    <string name="err_archive_unknown_format">Unknown archive format</string>
+    <string name="err_archive_no_folder">Folder not in archive: %1$s</string>
+    <string name="err_archive_no_entry">Not in archive: %1$s</string>
+    <string name="err_archive_read_only">Archives are read-only</string>
+    <string name="err_rar5_unsupported">RAR5 archives aren\'t supported</string>
+    <string name="err_rar_broken">Damaged RAR archive</string>
+    <string name="err_thumb_too_large">Too large for a preview</string>
+    <string name="err_not_an_image">Not an image</string>
+
+    <!-- Trash -->
+    <string name="err_trash_origin_unknown">Original location of “%1$s” is unknown</string>
+    <string name="err_trash_origin_exists">“%1$s” already exists in its original location</string>
+
+    <!-- Transfer notification -->
+    <string name="notif_channel_transfers">File operations</string>
+    <string name="notif_transfer_title">File operation</string>
+
+    <!-- Transfer operations -->
+    <string name="op_move">Moving</string>
+    <string name="op_copy">Copying</string>
+    <string name="op_compress">Compressing</string>
+    <string name="op_save">Saving</string>
+    <string name="op_delete">Deleting</string>
+    <string name="op_trash">Moving to trash</string>
+    <string name="op_restore">Restoring</string>
+    <string name="op_download">Loading %1$s</string>
+    <string name="err_same_folder">Source and destination are the same folder</string>
+    <string name="err_copy_into_itself">Can\'t copy a folder into itself</string>
+    <string name="err_already_exists">“%1$s” already exists</string>
+    <string name="err_no_trash_here">There\'s no trash here</string>
+
+    <!-- Places sheet -->
+    <string name="places_current_in_new_tab">Current folder in new tab</string>
+    <string name="places_device">Device</string>
+    <string name="storage_free_of">%1$s free of %2$s</string>
+    <string name="places_downloads">Downloads</string>
+    <string name="places_trash">Trash</string>
+    <string name="places_bookmarks">Bookmarks</string>
+    <string name="places_bookmarks_empty">Add bookmarks with “Add” or from the folder menu.</string>
+    <string name="places_servers">Servers</string>
+    <string name="places_servers_empty">No servers yet. SFTP (password or key) and SMB.</string>
+    <string name="places_guest">guest</string>
+
+    <!-- Server editor -->
+    <string name="server_err_no_private_key">Not a private key file (OpenSSH/PEM/PuTTY expected)</string>
+    <string name="server_new_title">New server</string>
+    <string name="server_edit_title">Edit server</string>
+    <string name="server_field_name">Name (optional)</string>
+    <string name="server_field_host">Host</string>
+    <string name="server_field_port">Port</string>
+    <string name="server_field_user_smb">User (empty = guest)</string>
+    <string name="server_field_user">User</string>
+    <string name="server_field_domain">Domain (optional)</string>
+    <string name="server_field_start_smb">Start folder, e.g. /share (empty = all shares)</string>
+    <string name="server_field_start">Start folder (empty = home)</string>
+    <string name="server_section_login">Login</string>
+    <string name="server_key_new">New key</string>
+    <string name="server_key_set">Key ✓</string>
+    <string name="server_key_none">No key</string>
+    <string name="server_choose_file">Choose file</string>
+    <string name="server_field_passphrase_keep">Passphrase (leave unchanged)</string>
+    <string name="server_field_passphrase">Passphrase (if encrypted)</string>
+    <string name="server_field_password_keep">Password (leave unchanged)</string>
+    <string name="server_field_password">Password</string>
+    <string name="server_note_smb">Credentials are stored encrypted with the Android Keystore.</string>
+    <string name="server_note_sftp">With both a key and a password, the key is tried first. Credentials are stored encrypted with the Android Keystore.</string>
+    <string name="msg_host_key_forgotten">Host key forgotten</string>
+    <string name="server_forget_host_key">Forget saved host key</string>
+
+    <!-- File list -->
+    <string name="action_retry">Try again</string>
+    <string name="list_min_two_chars">Enter at least two characters</string>
+    <string name="list_no_results">No results</string>
+    <string name="list_trash_empty">Trash is empty</string>
+    <string name="list_empty_folder">Empty folder</string>
+    <string name="permission_title">Access to device storage</string>
+    <string name="permission_text">A file manager needs the “All files access” permission.</string>
+    <string name="permission_allow">Allow</string>
+
+    <!-- Dialogs -->
+    <string name="hostkey_title">Unknown server</string>
+    <string name="hostkey_text">%1$s:%2$d isn\'t known yet. Does the fingerprint match?</string>
+    <string name="hostkey_trust">Trust</string>
+    <plurals name="conflict_more">
+        <item quantity="one">… and %d more</item>
+        <item quantity="other">… and %d more</item>
+    </plurals>
+    <plurals name="conflict_title">
+        <item quantity="one">Already exists</item>
+        <item quantity="other">%d already exist</item>
+    </plurals>
+    <string name="conflict_keep_both">Keep both</string>
+    <string name="conflict_skip">Skip</string>
+    <string name="conflict_replace">Replace</string>
+    <string name="target_move_to">Move to</string>
+    <string name="target_copy_to">Copy to</string>
+    <string name="target_clipboard">Clipboard</string>
+    <string name="target_clipboard_hint">Paste into any folder later</string>
+    <string name="compress_title">Create archive</string>
+    <string name="compress_password">Password (optional, AES-256)</string>
+    <string name="action_create">Create</string>
+    <string name="archive_password_title">Password for “%1$s”</string>
+    <string name="archive_password_wrong">The password is incorrect.</string>
+    <string name="archive_password_field">Password</string>
+    <string name="action_open">Open</string>
+    <string name="action_hide">Hide</string>
+    <string name="action_show">Show</string>
+    <plurals name="props_entries">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="props_location">Location</string>
+    <string name="props_type">Type</string>
+    <string name="props_size">Size</string>
+    <string name="props_contents">Contents</string>
+    <plurals name="props_files">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <plurals name="props_folders">
+        <item quantity="one">%d folder</item>
+        <item quantity="other">%d folders</item>
+    </plurals>
+    <string name="props_modified">Modified</string>
+    <string name="props_storage">Storage</string>
+
+    <!-- Browser screen -->
+    <string name="quoted_name">“%1$s”</string>
+    <plurals name="paste_items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <string name="paste_to_move">to move</string>
+    <string name="paste_to_copy">to copy</string>
+    <string name="paste_here">Paste here</string>
+    <string name="incoming_shared">shared from another app</string>
+    <string name="incoming_save_here">Save here</string>
+    <string name="action_discard">Discard</string>
+    <string name="new_folder">New folder</string>
+    <string name="new_file">New file</string>
+    <string name="action_create_new">Create</string>
+    <string name="empty_trash_title">Empty trash?</string>
+    <string name="empty_trash_text">Everything in the trash will be permanently deleted.</string>
+    <string name="empty_trash_confirm">Empty</string>
+    <string name="bookmark_title">Bookmark</string>
+    <string name="msg_bookmark_saved">Bookmark saved</string>
+    <string name="bookmark_rename_title">Rename bookmark</string>
+    <string name="delete_server_title">Delete server?</string>
+    <string name="delete_server_text">Remove “%1$s” along with its credentials and bookmarks.</string>
+    <string name="delete_dialog_trash_title">Move to trash?</string>
+    <string name="delete_dialog_permanent_title">Delete permanently?</string>
+    <string name="delete_dialog_trash_text">Move %1$s to the trash. Everything can be restored from there.</string>
+    <string name="delete_dialog_permanent_text">%1$s will be permanently deleted. This can’t be undone.</string>
+    <string name="delete_dialog_trash_button">Trash</string>
+    <string name="delete_dialog_permanent_button">Permanently</string>
+    <string name="action_search">Search</string>
+    <string name="view_list">List</string>
+    <string name="view_grid">Grid</string>
+    <string name="header_empty">empty</string>
+    <string name="search_close">Close search</string>
+    <string name="search_placeholder">Search in “%1$s”</string>
+    <string name="search_clear">Clear</string>
+    <string name="search_subfolders">Subfolders</string>
+    <string name="search_searching">searching … %1$s</string>
+    <plurals name="search_hits">
+        <item quantity="one">%d result</item>
+        <item quantity="other">%d results</item>
+    </plurals>
+    <string name="menu_more">Menu</string>
+    <string name="menu_empty_trash">Empty trash</string>
+    <string name="menu_add_bookmark">Add bookmark</string>
+    <string name="menu_open_trash">Open trash</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_properties">Properties</string>
+    <string name="menu_hidden_files">Hidden files</string>
+    <string name="sort_by_name">By name</string>
+    <string name="sort_by_date">By date</string>
+    <string name="sort_by_size">By size</string>
+    <string name="sort_descending">Descending</string>
+    <string name="tab_close">Close tab</string>
+    <string name="selection_clear">Clear selection</string>
+    <string name="selection_all">Select all</string>
+    <string name="selection_invert">Invert selection</string>
+    <string name="menu_extract_here">Extract here</string>
+    <string name="menu_create_archive">Create archive …</string>
+    <string name="menu_bookmark_folder">Add as bookmark</string>
+    <string name="menu_open_with">Open with …</string>
+    <plurals name="selection_count">
+        <item quantity="one">%d selected</item>
+        <item quantity="other">%d selected</item>
+    </plurals>
+    <string name="action_restore">Restore</string>
+    <string name="action_delete_permanently">Delete permanently</string>
+    <string name="action_move">Move</string>
+    <string name="action_extract">Extract</string>
+    <string name="action_copy">Copy</string>
+    <string name="tabbar_places">Places</string>
+    <string name="tab_drawer_title">Tabs</string>
+    <string name="tab_duplicate">Duplicate</string>
+    <string name="tab_new">New tab …</string>
+    <plurals name="transfer_waiting">
+        <item quantity="one">%d waiting</item>
+        <item quantity="other">%d waiting</item>
+    </plurals>
+
+    <!-- Messages -->
+    <string name="incoming_default_name">file</string>
+    <string name="err_not_readable">Can\'t read: %1$s</string>
+    <string name="note_file_name">Note %1$s.txt</string>
+    <plurals name="msg_saved">
+        <item quantity="one">Saved</item>
+        <item quantity="other">%d saved</item>
+    </plurals>
+    <string name="msg_moved">Moved</string>
+    <string name="msg_extracted">Extracted</string>
+    <string name="msg_copied">Copied</string>
+    <plurals name="msg_with_skipped">
+        <item quantity="one">%1$s, %2$d skipped</item>
+        <item quantity="other">%1$s, %2$d skipped</item>
+    </plurals>
+    <string name="msg_deleted">Deleted</string>
+    <string name="msg_cancelled">Cancelled</string>
+    <plurals name="msg_moved_to_trash">
+        <item quantity="one">Moved to trash</item>
+        <item quantity="other">%d moved to trash</item>
+    </plurals>
+    <string name="action_undo">Undo</string>
+    <string name="msg_restored">Restored</string>
+    <string name="msg_trash_emptied">Trash emptied</string>
+    <string name="msg_trash_empty">The trash is empty</string>
+    <string name="msg_extracted_to">Extracted to “%1$s”</string>
+    <string name="msg_created">Created “%1$s”</string>
+    <string name="msg_cant_share_folders">Folders can\'t be shared</string>
+    <string name="msg_host_key_not_confirmed">Host key not confirmed</string>
+
+    <!-- Text viewer -->
+    <plurals name="text_lines">
+        <item quantity="one">%d line</item>
+        <item quantity="other">%d lines</item>
+    </plurals>
+    <string name="text_wrap">Wrap lines</string>
+    <string name="text_find">Find in file</string>
+    <string name="text_previous">Previous match</string>
+    <string name="text_next">Next match</string>
+    <string name="text_no_matches">No matches</string>
+    <string name="text_modified">modified</string>
+    <string name="text_read_only">read-only</string>
+    <string name="text_unsaved_title">Unsaved changes</string>
+    <string name="text_unsaved_text">Save your changes to “%1$s”?</string>
+    <string name="msg_text_saved">Saved “%1$s”</string>
+
+    <!-- Audio player -->
+    <string name="player_play">Play</string>
+    <string name="player_pause">Pause</string>
+    <string name="player_next">Next</string>
+    <string name="player_previous">Previous</string>
+    <string name="player_stop">Stop</string>
+    <string name="player_shuffle">Shuffle</string>
+    <string name="player_repeat">Repeat</string>
+</resources>

@@ -1,0 +1,31 @@
+Commander launcher artwork
+
+Created with the built-in image_gen tool, then redrawn as native Android vector paths for precise geometry and reliable alpha. The monochrome variant uses a transparent seam between the folders and a transparent arrow, with a single opaque white fill for launcher tinting.
+
+Generation prompt:
+Use case: logo-brand
+Asset type: Android adaptive launcher foreground for Commander, an Android file manager with local folders, archives and remote servers.
+Primary request: Create a premium minimal flat logo of two overlapping folder silhouettes, with a confident right-pointing arrow cut out of the front folder as transparent negative space. Back folder sits slightly above and left of front folder; front folder is the dominant element. Both have recognizable folder tabs and softly rounded corners. Distinctive simple geometric silhouette, calm and capable, easy to recognize at 48 pixels.
+Palette: rear folder light sky blue #83B9F4; front folder rich deep blue #24558A. Arrow is a transparent cutout, not white paint.
+Style: precise vector-like solid fills, modern Material softness, balanced sturdy proportions, no gradients, no thin detail, no strokes or outlines.
+Composition: one isolated centered logo on a square truly transparent canvas, occupying approximately 52 percent of canvas width and 46 percent of canvas height. Keep generous transparent margins for adaptive launcher cropping.
+Constraints: deliver actual icon foreground only, no surrounding app tile, no background, no shadows, no textures, no letters, no words, no mockup, no border, no watermark.
+
+Final assets:
+commander-foreground.svg and foreground.png: transparent color foreground.
+commander-monochrome.svg and monochrome.png: transparent monochrome foreground.
+preview.svg and preview.png: simulated launcher masks and sample wallpaper colors, using the production vector geometry.
+generated-concept.png: original generated concept for provenance.
+
+Production resources:
+app/src/main/res/drawable/ic_launcher_foreground.xml
+app/src/main/res/drawable/ic_launcher_monochrome.xml
+app/src/main/res/drawable/ic_launcher_background.xml
+app/src/main/res/mipmap-anydpi/ic_launcher.xml
+
+Colors: foreground #24558A, rear folder #83B9F4, background #EDF4FF.
+Layers use a 108 x 108 dp canvas. Artwork occupies 54 x 48 dp centered at 54,54 and stays inside the central 66 x 66 dp safe zone. No baked-in outer mask or shadow. Android supplies the icon shape and themed palette. minSdk 30 does not require pre-adaptive legacy bitmaps.
+
+Android guidance:
+https://developer.android.com/develop/ui/compose/system/icon_design_adaptive
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Transparent arrow; centered artwork inside the adaptive safe zone. -->
+    <group android:pivotY="54" android:scaleY="1.04347826">
+    <path android:fillColor="#83B9F4" android:fillType="evenOdd"
+        android:pathData="M33,31 H44 Q46,31 47.5,32.5 L51,36 Q52,37 54,37 H66 Q72,37 72,43 V46 H61 Q59.5,46 58,44.5 L55,41.5 Q53.5,40 52,40 H40 C36.7,40 34,42.7 34,46 V67 H33 Q27,67 27,61 V37 Q27,31 33,31 Z" />
+    <path android:fillColor="#24558A" android:fillType="evenOdd"
+        android:pathData="M40,40 H52 Q53.5,40 55,41.5 L58,44.5 Q59.5,46 61,46 H75 Q81,46 81,52 V71 Q81,77 75,77 H40 Q34,77 34,71 V46 Q34,40 40,40 Z M45,58 H58 V53.5 Q58,52 59.2,53 L70.5,61.2 Q71.6,62 70.5,62.8 L59.2,71 Q58,72 58,70.5 V66 H45 Q43.5,66 43.5,64.5 V59.5 Q43.5,58 45,58 Z" />
+    </group>
+</vector>

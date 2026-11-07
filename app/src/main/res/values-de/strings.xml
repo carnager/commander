@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common actions -->
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_close">Schließen</string>
+    <string name="action_share">Teilen</string>
+    <string name="action_open_with">Öffnen mit</string>
+    <string name="msg_no_app_to_open">Keine App zum Öffnen gefunden</string>
+    <string name="action_rename">Umbenennen</string>
+    <string name="action_remove">Entfernen</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_add">Hinzufügen</string>
+    <string name="action_open_in_new_tab">In neuem Tab öffnen</string>
+    <string name="action_save">Speichern</string>
+
+    <!-- Errors: file systems -->
+    <string name="err_unknown_host_key">Unbekannter Host-Schlüssel für %1$s</string>
+    <string name="err_host_key_changed">Host-Schlüssel von %1$s hat sich geändert (%2$s). Möglicher Angriff – Server-Eintrag prüfen.</string>
+    <string name="volume_internal">Intern</string>
+    <string name="err_folder_not_readable">Ordner nicht lesbar: %1$s</string>
+    <string name="err_mkdir_failed">Ordner konnte nicht angelegt werden</string>
+    <string name="err_rename_failed">Umbenennen fehlgeschlagen</string>
+    <string name="err_delete_failed">Löschen fehlgeschlagen: %1$s</string>
+    <string name="err_archive_closed">Archiv nicht mehr geöffnet</string>
+    <string name="err_server_gone">Server nicht mehr vorhanden</string>
+    <string name="source_device">Gerät</string>
+    <string name="source_archive">Archiv</string>
+    <string name="err_no_credentials">Weder Passwort noch Schlüssel hinterlegt</string>
+    <string name="err_login_failed_detail">Anmeldung fehlgeschlagen: %1$s</string>
+    <string name="err_login_failed">Anmeldung fehlgeschlagen</string>
+    <string name="err_not_a_file_share">„%1$s“ ist keine Dateifreigabe</string>
+    <string name="err_archive_wrong_password">Falsches Passwort für „%1$s“</string>
+    <string name="err_archive_password_protected">„%1$s“ ist passwortgeschützt</string>
+    <string name="err_archive_unknown_format">Unbekanntes Archivformat</string>
+    <string name="err_archive_no_folder">Ordner nicht im Archiv: %1$s</string>
+    <string name="err_archive_no_entry">Nicht im Archiv: %1$s</string>
+    <string name="err_archive_read_only">Archive sind schreibgeschützt</string>
+    <string name="err_rar5_unsupported">RAR5-Archive werden nicht unterstützt</string>
+    <string name="err_rar_broken">Defektes RAR-Archiv</string>
+    <string name="err_thumb_too_large">Zu groß für eine Vorschau</string>
+    <string name="err_not_an_image">Kein Bild</string>
+
+    <!-- Trash -->
+    <string name="err_trash_origin_unknown">Ursprünglicher Ort von „%1$s“ unbekannt</string>
+    <string name="err_trash_origin_exists">„%1$s“ existiert am Ursprungsort bereits</string>
+
+    <!-- Transfer notification -->
+    <string name="notif_channel_transfers">Dateivorgänge</string>
+    <string name="notif_transfer_title">Dateivorgang</string>
+
+    <!-- Transfer operations -->
+    <string name="op_move">Verschieben</string>
+    <string name="op_copy">Kopieren</string>
+    <string name="op_compress">Packen</string>
+    <string name="op_save">Speichern</string>
+    <string name="op_delete">Löschen</string>
+    <string name="op_trash">Papierkorb</string>
+    <string name="op_restore">Wiederherstellen</string>
+    <string name="op_download">Lade %1$s</string>
+    <string name="err_same_folder">Quelle und Ziel sind derselbe Ordner</string>
+    <string name="err_copy_into_itself">Ein Ordner kann nicht in sich selbst kopiert werden</string>
+    <string name="err_already_exists">„%1$s“ existiert bereits</string>
+    <string name="err_no_trash_here">Hier gibt es keinen Papierkorb</string>
+
+    <!-- Places sheet -->
+    <string name="places_current_in_new_tab">Aktuellen Ordner in neuem Tab</string>
+    <string name="places_device">Gerät</string>
+    <string name="storage_free_of">%1$s frei von %2$s</string>
+    <string name="places_downloads">Downloads</string>
+    <string name="places_trash">Papierkorb</string>
+    <string name="places_bookmarks">Lesezeichen</string>
+    <string name="places_bookmarks_empty">Lege Lesezeichen über „Hinzufügen“ oder das Ordnermenü an.</string>
+    <string name="places_servers">Server</string>
+    <string name="places_servers_empty">Noch keine Server. SFTP (Passwort oder Schlüssel) und SMB.</string>
+    <string name="places_guest">Gast</string>
+
+    <!-- Server editor -->
+    <string name="server_err_no_private_key">Keine private Schlüsseldatei (OpenSSH/PEM/PuTTY erwartet)</string>
+    <string name="server_new_title">Neuer Server</string>
+    <string name="server_edit_title">Server bearbeiten</string>
+    <string name="server_field_name">Name (optional)</string>
+    <string name="server_field_host">Host</string>
+    <string name="server_field_port">Port</string>
+    <string name="server_field_user_smb">Benutzer (leer = Gast)</string>
+    <string name="server_field_user">Benutzer</string>
+    <string name="server_field_domain">Domäne (optional)</string>
+    <string name="server_field_start_smb">Startordner, z. B. /freigabe (leer = alle Freigaben)</string>
+    <string name="server_field_start">Startordner (leer = Home)</string>
+    <string name="server_section_login">Anmeldung</string>
+    <string name="server_key_new">Neuer Schlüssel</string>
+    <string name="server_key_set">Schlüssel ✓</string>
+    <string name="server_key_none">Kein Schlüssel</string>
+    <string name="server_choose_file">Datei wählen</string>
+    <string name="server_field_passphrase_keep">Passphrase (unverändert lassen)</string>
+    <string name="server_field_passphrase">Passphrase (falls verschlüsselt)</string>
+    <string name="server_field_password_keep">Passwort (unverändert lassen)</string>
+    <string name="server_field_password">Passwort</string>
+    <string name="server_note_smb">Zugangsdaten werden mit dem Android-Keystore verschlüsselt gespeichert.</string>
+    <string name="server_note_sftp">Mit Schlüssel und Passwort wird zuerst der Schlüssel versucht. Zugangsdaten werden mit dem Android-Keystore verschlüsselt gespeichert.</string>
+    <string name="msg_host_key_forgotten">Host-Schlüssel vergessen</string>
+    <string name="server_forget_host_key">Gespeicherten Host-Schlüssel vergessen</string>
+
+    <!-- File list -->
+    <string name="action_retry">Erneut versuchen</string>
+    <string name="list_min_two_chars">Mindestens zwei Zeichen eingeben</string>
+    <string name="list_no_results">Keine Treffer</string>
+    <string name="list_trash_empty">Papierkorb ist leer</string>
+    <string name="list_empty_folder">Leerer Ordner</string>
+    <string name="permission_title">Zugriff auf den Gerätespeicher</string>
+    <string name="permission_text">Ein Dateimanager braucht die Berechtigung „Zugriff auf alle Dateien“.</string>
+    <string name="permission_allow">Erlauben</string>
+
+    <!-- Dialogs -->
+    <string name="hostkey_title">Unbekannter Server</string>
+    <string name="hostkey_text">%1$s:%2$d ist noch nicht bekannt. Stimmt der Fingerabdruck?</string>
+    <string name="hostkey_trust">Vertrauen</string>
+    <plurals name="conflict_more">
+        <item quantity="one">… und %d weitere</item>
+        <item quantity="other">… und %d weitere</item>
+    </plurals>
+    <plurals name="conflict_title">
+        <item quantity="one">Existiert bereits</item>
+        <item quantity="other">%d existieren bereits</item>
+    </plurals>
+    <string name="conflict_keep_both">Beide behalten</string>
+    <string name="conflict_skip">Überspringen</string>
+    <string name="conflict_replace">Ersetzen</string>
+    <string name="target_move_to">Verschieben nach</string>
+    <string name="target_copy_to">Kopieren nach</string>
+    <string name="target_clipboard">Zwischenablage</string>
+    <string name="target_clipboard_hint">Später in einem beliebigen Ordner einfügen</string>
+    <string name="compress_title">Archiv erstellen</string>
+    <string name="compress_password">Passwort (optional, AES-256)</string>
+    <string name="action_create">Erstellen</string>
+    <string name="archive_password_title">Passwort für „%1$s“</string>
+    <string name="archive_password_wrong">Das Passwort stimmt nicht.</string>
+    <string name="archive_password_field">Passwort</string>
+    <string name="action_open">Öffnen</string>
+    <string name="action_hide">Verbergen</string>
+    <string name="action_show">Anzeigen</string>
+    <plurals name="props_entries">
+        <item quantity="one">%d Eintrag</item>
+        <item quantity="other">%d Einträge</item>
+    </plurals>
+    <string name="props_location">Ort</string>
+    <string name="props_type">Typ</string>
+    <string name="props_size">Größe</string>
+    <string name="props_contents">Inhalt</string>
+    <plurals name="props_files">
+        <item quantity="one">%d Datei</item>
+        <item quantity="other">%d Dateien</item>
+    </plurals>
+    <plurals name="props_folders">
+        <item quantity="one">%d Ordner</item>
+        <item quantity="other">%d Ordner</item>
+    </plurals>
+    <string name="props_modified">Geändert</string>
+    <string name="props_storage">Speicher</string>
+
+    <!-- Browser screen -->
+    <string name="quoted_name">„%1$s“</string>
+    <plurals name="paste_items">
+        <item quantity="one">%d Element</item>
+        <item quantity="other">%d Elemente</item>
+    </plurals>
+    <string name="paste_to_move">zum Verschieben</string>
+    <string name="paste_to_copy">zum Kopieren</string>
+    <string name="paste_here">Hier einfügen</string>
+    <string name="incoming_shared">von einer anderen App geteilt</string>
+    <string name="incoming_save_here">Hier speichern</string>
+    <string name="action_discard">Verwerfen</string>
+    <string name="new_folder">Neuer Ordner</string>
+    <string name="new_file">Neue Datei</string>
+    <string name="action_create_new">Anlegen</string>
+    <string name="empty_trash_title">Papierkorb leeren?</string>
+    <string name="empty_trash_text">Alles im Papierkorb wird endgültig gelöscht.</string>
+    <string name="empty_trash_confirm">Leeren</string>
+    <string name="bookmark_title">Lesezeichen</string>
+    <string name="msg_bookmark_saved">Lesezeichen gespeichert</string>
+    <string name="bookmark_rename_title">Lesezeichen umbenennen</string>
+    <string name="delete_server_title">Server löschen?</string>
+    <string name="delete_server_text">„%1$s“ samt Zugangsdaten und Lesezeichen entfernen.</string>
+    <string name="delete_dialog_trash_title">In den Papierkorb?</string>
+    <string name="delete_dialog_permanent_title">Endgültig löschen?</string>
+    <string name="delete_dialog_trash_text">%1$s in den Papierkorb verschieben. Von dort lässt sich alles wiederherstellen.</string>
+    <string name="delete_dialog_permanent_text">%1$s wird endgültig gelöscht. Das lässt sich nicht rückgängig machen.</string>
+    <string name="delete_dialog_trash_button">Papierkorb</string>
+    <string name="delete_dialog_permanent_button">Endgültig</string>
+    <string name="action_search">Suchen</string>
+    <string name="view_list">Liste</string>
+    <string name="view_grid">Raster</string>
+    <string name="header_empty">leer</string>
+    <string name="search_close">Suche schließen</string>
+    <string name="search_placeholder">In „%1$s“ suchen</string>
+    <string name="search_clear">Leeren</string>
+    <string name="search_subfolders">Unterordner</string>
+    <string name="search_searching">suche … %1$s</string>
+    <plurals name="search_hits">
+        <item quantity="one">%d Treffer</item>
+        <item quantity="other">%d Treffer</item>
+    </plurals>
+    <string name="menu_more">Menü</string>
+    <string name="menu_empty_trash">Papierkorb leeren</string>
+    <string name="menu_add_bookmark">Lesezeichen setzen</string>
+    <string name="menu_open_trash">Papierkorb öffnen</string>
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_properties">Eigenschaften</string>
+    <string name="menu_hidden_files">Versteckte Dateien</string>
+    <string name="sort_by_name">Nach Name</string>
+    <string name="sort_by_date">Nach Datum</string>
+    <string name="sort_by_size">Nach Größe</string>
+    <string name="sort_descending">Absteigend</string>
+    <string name="tab_close">Tab schließen</string>
+    <string name="selection_clear">Auswahl aufheben</string>
+    <string name="selection_all">Alle auswählen</string>
+    <string name="selection_invert">Auswahl umkehren</string>
+    <string name="menu_extract_here">Hier entpacken</string>
+    <string name="menu_create_archive">Archiv erstellen …</string>
+    <string name="menu_bookmark_folder">Als Lesezeichen</string>
+    <string name="menu_open_with">Öffnen mit …</string>
+    <plurals name="selection_count">
+        <item quantity="one">%d ausgewählt</item>
+        <item quantity="other">%d ausgewählt</item>
+    </plurals>
+    <string name="action_restore">Wiederherstellen</string>
+    <string name="action_delete_permanently">Endgültig löschen</string>
+    <string name="action_move">Verschieben</string>
+    <string name="action_extract">Entpacken</string>
+    <string name="action_copy">Kopieren</string>
+    <string name="tabbar_places">Orte</string>
+    <string name="tab_drawer_title">Tabs</string>
+    <string name="tab_duplicate">Duplizieren</string>
+    <string name="tab_new">Neuer Tab …</string>
+    <plurals name="transfer_waiting">
+        <item quantity="one">%d wartend</item>
+        <item quantity="other">%d wartend</item>
+    </plurals>
+
+    <!-- Messages -->
+    <string name="incoming_default_name">Datei</string>
+    <string name="err_not_readable">Nicht lesbar: %1$s</string>
+    <string name="note_file_name">Notiz %1$s.txt</string>
+    <plurals name="msg_saved">
+        <item quantity="one">Gespeichert</item>
+        <item quantity="other">%d gespeichert</item>
+    </plurals>
+    <string name="msg_moved">Verschoben</string>
+    <string name="msg_extracted">Entpackt</string>
+    <string name="msg_copied">Kopiert</string>
+    <plurals name="msg_with_skipped">
+        <item quantity="one">%1$s, %2$d übersprungen</item>
+        <item quantity="other">%1$s, %2$d übersprungen</item>
+    </plurals>
+    <string name="msg_deleted">Gelöscht</string>
+    <string name="msg_cancelled">Abgebrochen</string>
+    <plurals name="msg_moved_to_trash">
+        <item quantity="one">In den Papierkorb verschoben</item>
+        <item quantity="other">%d in den Papierkorb verschoben</item>
+    </plurals>
+    <string name="action_undo">Rückgängig</string>
+    <string name="msg_restored">Wiederhergestellt</string>
+    <string name="msg_trash_emptied">Papierkorb geleert</string>
+    <string name="msg_trash_empty">Der Papierkorb ist leer</string>
+    <string name="msg_extracted_to">Entpackt nach „%1$s“</string>
+    <string name="msg_created">„%1$s“ erstellt</string>
+    <string name="msg_cant_share_folders">Ordner lassen sich nicht teilen</string>
+    <string name="msg_host_key_not_confirmed">Host-Schlüssel nicht bestätigt</string>
+
+    <!-- Text viewer -->
+    <plurals name="text_lines">
+        <item quantity="one">%d Zeile</item>
+        <item quantity="other">%d Zeilen</item>
+    </plurals>
+    <string name="text_wrap">Zeilen umbrechen</string>
+    <string name="text_find">Im Text suchen</string>
+    <string name="text_previous">Vorheriger Treffer</string>
+    <string name="text_next">Nächster Treffer</string>
+    <string name="text_no_matches">Keine Treffer</string>
+    <string name="text_modified">geändert</string>
+    <string name="text_read_only">schreibgeschützt</string>
+    <string name="text_unsaved_title">Ungespeicherte Änderungen</string>
+    <string name="text_unsaved_text">Änderungen an „%1$s“ speichern?</string>
+    <string name="msg_text_saved">„%1$s“ gespeichert</string>
+
+    <!-- Audio player -->
+    <string name="player_play">Abspielen</string>
+    <string name="player_pause">Pause</string>
+    <string name="player_next">Nächster Titel</string>
+    <string name="player_previous">Vorheriger Titel</string>
+    <string name="player_stop">Stopp</string>
+    <string name="player_shuffle">Zufällig</string>
+    <string name="player_repeat">Wiederholen</string>
+</resources>
